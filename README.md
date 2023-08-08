@@ -36,5 +36,8 @@ else
  print_failure("".get_lang('error_occured_remote_host').".$remote_retval");
  $view->refresh("?m=gamemanager&amp;p=game_monitor&amp;home_id-mod_id-ip-port=". $home_id . "-". $mod_id . "-" . $ip . "-" . $port,15);
 
+ ![image](https://github.com/007amauri/OGP/assets/19276454/7292897f-c4ca-4b15-be36-b9266d69cb43)
+
+
 
 
