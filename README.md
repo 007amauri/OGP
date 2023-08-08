@@ -13,3 +13,14 @@ then you must put in the two OGP server directory
 cp '/home/amauri/Documentos/libgcc_s.so.1' /home/ogp_agent/OGP_User_Files/1/bin
 
 cp '/home/amauri/Documentos/libgcc_s.so.1' /home/ogp_agent/OGP_User_Files/1/csgo/bin
+
+
+nano '/var/www/html/modules/gamemanager/stop_server.php'
+
+Edit file stop_server.php 3 to 18
+
+
+       $view->refresh("?m=gamemanager&amp;p=game_monitor&amp;home_id-mod_id-ip-port=". $home_id . "-". $mod_id . "-" . $ip . "-" . $port,18);
+}
+?>
+
