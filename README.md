@@ -19,8 +19,22 @@ nano '/var/www/html/modules/gamemanager/stop_server.php'
 
 Edit file stop_server.php 3 to 18
 
+$view->refresh("?m=gamemanager&amp;p=game_monitor&amp;home_id-mod_id-ip-port=". $home_id . "-". $mod_id . "-" . $ip . "-" . $port,18);
 
-       $view->refresh("?m=gamemanager&amp;p=game_monitor&amp;home_id-mod_id-ip-port=". $home_id . "-". $mod_id . "-" . $ip . "-" . $port,18);
+Edit file restart_server.php 3 to 15
+
+nano '/var/www/html/modules/gamemanager/restart_server.php'
+
+if ( $screen_running == 1 ) // $screen_running
+{
+  print("<p class='note'>".get_lang('restarting_server')."</p>");
+   $view->refresh("?m=gamemanager&amp;p=restart&amp;refresh&amp;ip=$ip&amp;port=$port&amp;home_id=$home_id&amp;mod_id=$mod_id",15);
+   return;
 }
-?>
+else
+{
+ print_failure("".get_lang('error_occured_remote_host').".$remote_retval");
+ $view->refresh("?m=gamemanager&amp;p=game_monitor&amp;home_id-mod_id-ip-port=". $home_id . "-". $mod_id . "-" . $ip . "-" . $port,15);
+
+
 
