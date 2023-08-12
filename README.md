@@ -62,6 +62,13 @@ else
 
  ![image](https://github.com/007amauri/OGP/assets/19276454/7292897f-c4ca-4b15-be36-b9266d69cb43)
 
+After installing mariadb-server, run this command to get MySQL to bind on all addresses:
+
+ sudo sed -i "s/^bind-address.*/bind-address=0.0.0.0/g" "/etc/mysql/mariadb.conf.d/50-server.cnf"
+
+ Help Support https://opengamepanel.org/install_guide/panel.html
+ 
+
 
 
 
