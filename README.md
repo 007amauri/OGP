@@ -30,6 +30,10 @@ cp libgcc_s.so.1 /home/ogp_agent/OGP_User_Files/1/csgo/bin
 
 /home/amauri/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/sniper_platform_0.20230605.51441/files/lib/i386-linux-gnu/
 
+![image](https://github.com/007amauri/OGP/assets/19276454/7227a060-d1be-48e2-ac4b-7e12d4810f12)
+
+
+
 **i386-linux-gnu**
 then you must put in the two OGP server directory
 
