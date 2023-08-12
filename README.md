@@ -24,6 +24,9 @@ cp libgcc_s.so.1 /home/ogp_agent/OGP_User_Files/1/bin
 
 cp libgcc_s.so.1 /home/ogp_agent/OGP_User_Files/1/csgo/bin
 
+![image](https://github.com/007amauri/OGP/assets/19276454/607c11be-b908-4761-a7eb-6420435cfecb)
+
+
 
 /home/amauri/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper/sniper_platform_0.20230605.51441/files/lib/i386-linux-gnu/
 
